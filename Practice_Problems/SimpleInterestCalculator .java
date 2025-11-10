@@ -1,3 +1,4 @@
+package Practice_Problem;
 import java.util.Scanner;
 
 public class SimpleInterestCalculator {
