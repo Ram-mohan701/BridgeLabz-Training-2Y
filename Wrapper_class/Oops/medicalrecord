@@ -1,0 +1,36 @@
+class InPatinet extends Patient{
+    private int days;
+    int no_of_days;
+    public InPatinet(int PatientId,String name,int age,String medicalrecord)
+}
+
+
+
+
+
+
+abstract class Patient implements medicalrecord{
+
+
+
+
+
+
+
+    List<Patient> records=new ArrayList<>();
+    public Patient(int PatientId,String name,int age){
+        this.PatientId=PatientId;
+        this.age=age;
+        this.name=name;
+    }
+    public Patient(int PatientId,String name, int age,boolean medicalrecord){
+        PatientId=PatientId;
+        this.name=name;
+        this.age=age;
+        this.medicalrecord=medicalrecord;
+
+    }
+    public int getPatientId(){return PatientId; }
+
+
+}
